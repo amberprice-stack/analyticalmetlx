@@ -1,0 +1,17 @@
+1. Added "Search1.png" Image to src\main\webapp\static\images to use as search Icon.
+
+2. Added DIV elements "searchReport", "failSearchBox" to src\main\webapp\board.html as the search button and input text area, as well as a message box to display failed search attempts. Also modified the "pluginBar" DIV style in order to align with the "searchReport" and "failSearchBox" DIVs.
+
+3. Added Javascript/JQuery functions to the src\main\webapp\static\js\min\board.js file in order to take care of the sliding animation and data retrieval. 
+
+The Following functions were added:
+
+$(document).ready(function () - This was added to appropriately and safely handle all the functions added to the code, as it will guarantee all the DOM elements are loaded and the functions can see their respective objects. 
+
+$(document).on('click', '#searchImg', function () - This function takes care of handleing the Search Icon events.
+
+ $(document).on('keypress', '#searchTextBox', function (e) - This function checks for the "Enter" Key input in order to call the TextSearch function, as well as checking for and empty string before executing.
+
+function TextSearch(criteria) - This function collects all the image elements on the canvas and looks to find a match in their text in order to then zoom at the match.
+
+function zoomToFound(a) - This function zooms at the found match.
