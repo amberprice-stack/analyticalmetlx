@@ -107,3 +107,10 @@ If this is a fresh checkout then (on Mac/Linux) you'll first need to make the sh
 MeTL has a CI pipeline on CircleCI, at:
 
 [https://circleci.com/gh/StackableRegiments/analyticalmetlx]
+
+### Project Enhancement Authors
+## Authors
+* Amber Price
+* Michael Crawford
+* Alfonso Mendoza
+* Jeffrey Serrano
