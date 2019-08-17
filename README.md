@@ -109,7 +109,6 @@ MeTL has a CI pipeline on CircleCI, at:
 [https://circleci.com/gh/StackableRegiments/analyticalmetlx]
 
 ### Project Enhancement Authors
-## Authors
 * Amber Price
 * Michael Crawford
 * Alfonso Mendoza
